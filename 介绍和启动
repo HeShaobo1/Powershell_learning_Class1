@@ -1,0 +1,25 @@
+Powershell
+
+###
+
+Windows PowerShell is the next-generation scripting environment created by Microsoft. 
+It’s designed to provide a unified solution for Windows scripting and automation, able to access the wide range of technologies such as
+.NET, COM, and WMI
+through a single tool. Since its release in 2006, PowerShell has become the central
+component of any Windows management solution. In addition, due to PowerShell’s
+comprehensive support for .NET, it also has broad application potential outside of the
+system administration space. PowerShell can be used for text processing, general
+scripting, build management, creating test frameworks, and so on.
+
+#启动PowerShell
+In a cmd line with command "start PowerShell" or "start PowerShell_ise"
+
+C:\Users\he.shaobo>start powershell
+C:\Users\he.shaobo>
+
+
+#In start Bar type with PowerShell and then choose PowerShell
+
+#In a Run program line with "Win + R"
+
+
