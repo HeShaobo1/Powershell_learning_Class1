@@ -1,0 +1,34 @@
+#管道
+把上一条命令的输出作为下一条命令的输入。
+
+
+输出命令
+Get-Process | Sort-Object Name  | Format-List -Property Name, Handles
+PS C:\Users\he.shaobo> Get-Process | Sort-Object Name  | Format-List -Property Name, Handles | more
+
+
+Name    : AdminService
+Handles : 164
+
+Name    : ApMsgFwd
+Handles : 164
+
+Name    : ApntEx
+Handles : 168
+
+Name    : Apoint
+Handles : 302
+
+Name    : ApplicationFrameHost
+Handles : 474
+
+
+输出到文件
+Get-Process | Sort-Object Name  | Out-File 1.txt
+Get-Process | Sort-Object Name  >> 1.txt
+Get-Process | Sort-Object Name  > 1.txt
+
+
+
+
+
