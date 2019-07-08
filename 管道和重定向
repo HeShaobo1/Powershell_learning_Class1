@@ -1,6 +1,6 @@
-#管道
-把上一条命令的输出作为下一条命令的输入。
+#####管道###
 
+把上一条命令的输出作为下一条命令的输入。
 
 输出命令
 Get-Process | Sort-Object Name  | Format-List -Property Name, Handles
@@ -29,6 +29,16 @@ Get-Process | Sort-Object Name  >> 1.txt
 Get-Process | Sort-Object Name  > 1.txt
 
 
+PS C:\Users\he.shaobo> cat .\1.txt
+
+HandlPS C:\Users\he.shaobo> cat .\1.txt
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName                                        
+-------  ------    -----      -----     ------     --  -- -----------                                        
+    164       9     2384       3532              3924   0 AdminService    
 
 
-
+es  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName                                        
+-------  ------    -----      -----     ------     --  -- -----------                                        
+    164       9     2384       3532              3924   0 AdminService                                       
+    164      11     1988       8588      19.78   7076  10 ApMsgFwd  
